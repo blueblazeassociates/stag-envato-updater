@@ -4,8 +4,7 @@
   "type" : "wordpress-plugin",
   "homepage" : "https://github.com/codestag/stag-envato-updater",
   "license" : [
-    "GPL-2.0+",
-    "proprietary"
+    "GPL-2.0+"
   ],
   "authors" : [{
     "name" : "Ram Ratan Maurya",
@@ -18,5 +17,8 @@
     "email" : "egifford@blueblazeassociates.com"
     }
   ],
-  "keywords" : []
+  "keywords" : [
+  ],
+  "replace": {
+  }
 }

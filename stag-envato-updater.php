@@ -1,17 +1,28 @@
 <?php
 /**
- * Plugin Name: Stag Envato Updater
- * Plugin URI: https://github.com/codestag/stag-envato-updater
- * Description: A small plugin to keep your ThemeForest themes up to date.
- * Version: 1.0
- * Author: Ram Ratan Maurya
- * Author URI: http://mauryaratan.me
- * Requires at least: 3.3
- * Tested up to: 3.8.1
- * License: GPLv2 or later
+ * Stag Envato Updater
  *
- * Text Domain: seu
- * Domain Path: /languages/
+ * @author  Ram Ratan Maurya
+ * @license GPL-2.0+
+ * @link    https://github.com/blueblazeassociates/stag-envato-updater
+ */
+
+/*
+ * Plugin Name:       Stag Envato Updater
+ * Plugin URI:        https://github.com/blueblazeassociates/stag-envato-updater
+ * Description:       A small plugin to keep your ThemeForest themes up to date.
+ * Version:           1.0
+ * Author:            Ram Ratan Maurya
+ * Author URI:        http://mauryaratan.me
+ * Requires at least: 3.3
+ * Tested up to:      3.8.1
+ * License:           GPLv2 or later
+ * Text Domain:       seu
+ * Domain Path:       /languages/
+ * GitHub Plugin URI: https://github.com/blueblazeassociates/stag-envato-updater
+ * GitHub Branch:     blueblaze
+ * Requires WP:       4.7
+ * Requires PHP:      5.6
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly

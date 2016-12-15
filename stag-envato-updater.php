@@ -11,7 +11,7 @@
  * Plugin Name:       Stag Envato Updater
  * Plugin URI:        https://github.com/blueblazeassociates/stag-envato-updater
  * Description:       A small plugin to keep your ThemeForest themes up to date.
- * Version:           1.0
+ * Version:           1.0.0.0.1
  * Author:            Ram Ratan Maurya
  * Author URI:        http://mauryaratan.me
  * Requires at least: 3.3
@@ -93,7 +93,7 @@ final class Stag_Envato_Updater {
 
 	/**
 	 * Sends a request to server, gets current plugins versions.
-	 * 
+	 *
 	 * @param  object $transient Update transient option
 	 * @return object Update transient option
 	 */
@@ -110,7 +110,7 @@ final class Stag_Envato_Updater {
 		}
 
 		$api = new Envato_Protected_API( $this->options['username'], $this->options['api_key'] );
-		
+
 		$purchased = $api->wp_list_themes( true );
 
 		$installed = function_exists( "wp_get_themes" ) ? wp_get_themes() : get_themes();
@@ -159,7 +159,7 @@ final class Stag_Envato_Updater {
 
 	/**
 	 * Settings description callback.
-	 * 
+	 *
 	 * @return void
 	 */
 	function settings_description() {
@@ -170,7 +170,7 @@ final class Stag_Envato_Updater {
 
 	/**
 	 * Username settings callback.
-	 * 
+	 *
 	 * @return void
 	 */
 	function username_settings() {
@@ -184,7 +184,7 @@ final class Stag_Envato_Updater {
 
 	/**
 	 * API Key settings callback.
-	 * 
+	 *
 	 * @return void
 	 */
 	function api_key_settings() {
@@ -200,7 +200,7 @@ final class Stag_Envato_Updater {
 
 	/**
 	 * Display settings panel on multisite.
-	 * 
+	 *
 	 * @return void
 	 */
 	public function show_network_settings() {
@@ -231,12 +231,12 @@ final class Stag_Envato_Updater {
 
 	/**
 	 * Save network settings.
-	 * 
+	 *
 	 * @return void
 	 */
 	public function save_network_settings() {
 		$posted_settings  = array_map( 'sanitize_text_field', $_POST['seu_options'] );
-		 
+
         foreach ( $posted_settings as $name => $value ) {
             update_site_option( $name, $value );
         }

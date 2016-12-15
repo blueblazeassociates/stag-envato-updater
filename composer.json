@@ -1,24 +1,28 @@
 {
-  "name" : "blueblazeassociates/stag-envato-updater",
+  "name"        : "blueblazeassociates/stag-envato-updater",
   "description" : "A small plugin to keep your ThemeForest themes up to date.",
-  "type" : "wordpress-plugin",
-  "homepage" : "https://github.com/codestag/stag-envato-updater",
-  "license" : [
-    "GPL-2.0+"
-  ],
+  "type"        : "wordpress-plugin",
+  "homepage"    : "https://github.com/blueblazeassociates/stag-envato-updater",
+  "license"     : "GPL-2.0+",
   "authors" : [{
-    "name" : "Ram Ratan Maurya",
-    "homepage" : "http://mauryaratan.me",
-    "role" : "Author/Creator"
-  }, {
-    "name" : "Ed Gifford",
-    "homepage" : "http://www.blueblazeassociates.com",
-    "role" : "Composer-fier",
-    "email" : "egifford@blueblazeassociates.com"
+      "name"     : "Ram Ratan Maurya",
+      "homepage" : "http://mauryaratan.me",
+      "role"     : "Author/Creator"
+    }, {
+      "name"     : "Ed Gifford",
+      "homepage" : "http://www.blueblazeassociates.com",
+      "role"     : "Composer-fier",
+      "email"    : "egifford@blueblazeassociates.com"
     }
   ],
   "keywords" : [
   ],
-  "replace": {
+  "replace" : {
+  },
+  "require" : {
+    "php" : ">=5.6.26"
+  },
+  "config" : {
+    "php" : "5.6.*"
   }
 }

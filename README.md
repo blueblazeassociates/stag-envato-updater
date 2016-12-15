@@ -14,4 +14,4 @@ Branches:
 
 * blueblaze:    tracks the latest changes and tweaks from Blue Blaze.
 * master:       tracks the latest version from the plugin author on the original GitHub repo.
-* 1.0.0-branch: tracks Blue Blaze's updates to version 1.0.0
+* 1.0.0-branch: tracks Blue Blaze's updates to version v1.0

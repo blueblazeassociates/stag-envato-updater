@@ -11,7 +11,7 @@
  * Plugin Name:       Stag Envato Updater
  * Plugin URI:        https://github.com/blueblazeassociates/stag-envato-updater
  * Description:       A small plugin to keep your ThemeForest themes up to date.
- * Version:           1.0.0.0.1
+ * Version:           1.0.0.0.2
  * Author:            Ram Ratan Maurya
  * Author URI:        http://mauryaratan.me
  * Requires at least: 3.3
